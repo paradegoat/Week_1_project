@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    background-image: url("optimized/background-3.jpg");
+    height: 20vw;
+		width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+	font-family: "Lara";
+	text-align: center;
+	padding-top: 5%;
+	font-size: 8vw;
+	color: white;
+}
+
+html {
+	background-color: #F2F1E8;
+}
+
+.nav-row {
+  display: flex;
+  /*justify-content: space-around;*/
+  list-style: none;
+	position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  align-items: center;
+  box-shadow: 0px 2px 0px 0.5px;
+  height: 5vw;
+  margin-top: 0%;
+  /*padding-left: 35%;*/
+	border: 2px solid #968772;
+	border-top: none;
+
+}
+
+.nav-row a {
+  text-transform: uppercase;
+  font-family: "Roboto";
+	font-size: 1.75vw;
+	color: #2B2F26
+}
+
+.nav-item {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+h1, p, h2, table{
+	font-family: "Lara";
+}
+
+blockquote {
+	 font-family: "Roboto";
+	 font-style: italic;
+	 font-size: 1.5vw;
+	 height: 6vw;
+	 border-left: 2px solid brown;
+	 margin-left: 4vw;
+	 padding-top: 2vw;
+	 padding-left: 2vw;
+	 margin-top: 2vw;
+	 margin-bottom: 2vw;
+	 font-weight: 100;
+ }
+
+h1 {
+	margin-top: 8vw;
+	font-size: 6vw;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3vw;
+	margin-bottom: 0vw;
+}
+
+.facilities {
+	margin-top: 3vw;
+}
+p {
+	font-size: 2vw;
+	line-height: 1.6em;
+	/*padding-top: 2vw;*/
+	/*padding-bottom: 2vw;*/
+	margin-bottom: 1.5vw;
+	margin-top: 1.5vw;
+}
+
+a {
+	color: #2B2F26;
+}
+
+a:hover {
+	color: #967343;
+}
+
+.top-block {
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+.bottom-block {
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+table {
+
+    border-collapse: collapse;
+		width: 85%;
+		margin-top: 2vw;
+}
+
+table, th, td {
+    border: 1px solid black;
+		font-size: 2vw;
+		font-family: "Lara";
+		font-weight: bold;
+	}
+
+td, th{
+
+	height:3vw;
+	padding-left: .5vw;
+	padding-top: 2vw;
+	padding-bottom: 0vw;
+	/*margin: 3%%;
+	padding-left: .75vw;*/
+	/*padding-top: 3%;*/
+}
+
+tr:nth-child(even) {
+	background-color: #f2eadc;
+
+}
+
+table {
+	display:inline-table;
+	align-items: center;
+}
+
+.bird-house img {
+	height: 10vw;
+	padding-right: 2vw;
+	padding-bottom: 1vw;
+
+}
+
+ .container {
+	display: flex;
+}
+
+.thing img {
+	height: 7vw;
+	padding-top: 3vw;
+}
+
+.paragraph {
+	align: left;
+}
+
+footer {
+  background-color: #2b2f26;
+  height: 12vw;
+	margin-top: 4vw
+}
+
+.footer {
+  color: white;
+  font-size: 1.5em;
+  padding-top: 4vw;
+	padding-left: 2vw;
+}
+
+#navpot {
+	height: 4vw;
+	margin-right: 25%;
+}
+
+#pots {
+	background-position:
+}
